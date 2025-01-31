@@ -13,19 +13,17 @@ A simple Retrieval-Augmented Generation (RAG) system that lets you chat with you
 
 1. **Install Ollama:** Download and install Ollama from the official website: [Link to Ollama website]
 
-2. Pull DeepSeek Model: Open your terminal and pull the DeepSeek-R1 14B model:
+2. **Pull DeepSeek Model:** Open your terminal and pull the DeepSeek-R1 14B model:
 
   
    ollama pull deepseek-r1:14b
    
-3.Install Dependencies: Install the required Python packages:
+3.**Install Dependencies:** Install the required Python packages:
 
 pip install -r requirements.txt
 
-How to Run
-Clone the Repository : clone this repository
-cd chat-with-pdf  # Or the name of your project directory
-Run the Streamlit App:
+##How to Run
+**Clone the Repository 
+**Run the Streamlit App:
 streamlit run pdf_rag.py
-Open in Browser: Streamlit will provide a URL. Open this URL in your web browser to access the application.
 
